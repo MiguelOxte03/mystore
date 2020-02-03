@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>MyStore</title>
+</head>
+<body>
+    <!--Titulo-->
+    <h1>MYfastStore</h1>
+    <!--Menu-->
+    <ul>
+        <li><a href="index.html" title="Inicio">Inicio</a></li>
+        <li><a href="productos.html" title="Productos">Productos</a></li>
+        <li><a href="compra.html" title="Compra">Compra</a></li>
+        <li><a href="http://amazon.com" target="_blank">Compra Mejor Aqui</a></li>
+    </ul>
+    
+    <hr/>
+    <!--Contenido de Compra HTML-->
+    <h2>Compra</h2>
+    <form>
+        <p>
+        <label for="nombre">Nombre</label><br/>
+        <input type="text" name="Nombre">
+        </p>
+        <p>
+            <label for="Direccion">Direccion</label><br/>
+            <textarea name="direccion"></textarea>
+        </p>
+        <p>
+        <label for="envio">Tipo de Envio</label><br/>
+        <select name="envio">
+            <option value="dhl">DHL</option>
+            <option value="fedex">FEDEX</option>
+            <option value="estafeta">ESTAFETA</option>
+        </select>
+         </p>
+         <input type="submit" value="Realizar Pedido">
+    </form>
+
+</body>
+</html>
